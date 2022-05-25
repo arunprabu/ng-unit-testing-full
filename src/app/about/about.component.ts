@@ -8,10 +8,6 @@ import { Component, OnInit } from '@angular/core';
     </div>
   `,
   styles: [
-    `.heading2{
-      background-color: 'yellow';
-    }
-    `
   ]
 })
 export class AboutComponent implements OnInit {
