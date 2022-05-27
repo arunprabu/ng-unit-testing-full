@@ -1,0 +1,6 @@
+<div *ngIf="users">
+  <h2>Testing Array with length and specific data in HTML</h2>
+  <p *ngFor="let user of users">
+    {{ user.id }}. {{user.name}} | {{user.email}}
+  </p>
+</div>

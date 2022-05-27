@@ -1,4 +1,4 @@
-// Testing Pattern: Arrange Act Assert (AAA)
+// Testing Pattern: Arrange Act Assert (AAA) // Given 
 // Configures and initializes environment for unit testing and 
 // provides methods for creating components and services in unit tests.
 
@@ -52,6 +52,7 @@ xdescribe('AppComponent Class', () => {
       // assert
       expect(compiled.querySelector('h1')?.textContent).toContain('Welcome to Unit Testing Tutorial!');
     });
+    
   }
 );
 

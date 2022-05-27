@@ -1,0 +1,7 @@
+<div *ngIf="todoList">
+  <p *ngFor="let todo of todoList">
+    {{todo.id}}. {{todo.title}} 
+    <br>
+    <span>Status: {{todo.completed? 'Completed': 'Not Completed'}}</span>
+  </p>
+</div>
